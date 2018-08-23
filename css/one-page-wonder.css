@@ -28,24 +28,32 @@ h6 {
   border-radius: 5rem;
 }
 
+.rounded-circle {
+  border:1px solid grey !important;
+}
+
 .navbar-custom {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: white;
+  color:#0056b3 !important;
+}
+
+.navbar-toggler {
+        color:#0056b3;
 }
 
 .navbar-custom .navbar-brand {
-  text-transform: uppercase;
   font-size: 1rem;
   letter-spacing: 0.1rem;
   font-weight: 700;
 }
 
 .navbar-custom .navbar-nav .nav-item .nav-link {
-  text-transform: uppercase;
   font-size: 0.8rem;
   font-weight: 700;
   letter-spacing: 0.1rem;
+  margin-left:30px;
 }
 
 header.masthead {
@@ -53,7 +61,7 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+  background: linear-gradient(0deg, #5D99F8 0%, #3D72C1 100%);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -77,7 +85,7 @@ header.masthead .bg-circle {
   z-index: 0;
   position: absolute;
   border-radius: 100%;
-  background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
+  background: linear-gradient(0deg, #4780D8 0%, #00A0DF 100%);
 }
 
 header.masthead .bg-circle-1 {
@@ -117,7 +125,7 @@ header.masthead .bg-circle-4 {
     font-size: 6rem;
   }
   header.masthead .masthead-content .masthead-subheading {
-    font-size: 4rem;
+    font-size: 2rem;
   }
 }
 
